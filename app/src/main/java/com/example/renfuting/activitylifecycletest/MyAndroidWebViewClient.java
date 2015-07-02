@@ -2,6 +2,7 @@ package com.example.renfuting.activitylifecycletest;
 
 import android.app.ProgressDialog;
 import android.graphics.Bitmap;
+import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -14,7 +15,7 @@ class MyAndroidWebViewClient extends WebViewClient {
     @Override
     public void onPageStarted(WebView view, String url, Bitmap favicon) {
         // TODO
-
+        Log.d("","ttt");
     }
 
     @Override
