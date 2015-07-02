@@ -16,6 +16,7 @@ class MyAndroidWebViewClient extends WebViewClient {
     public void onPageStarted(WebView view, String url, Bitmap favicon) {
         // TODO
         Log.d("","ttt");
+        Log.d("","ttt");
     }
 
     @Override
